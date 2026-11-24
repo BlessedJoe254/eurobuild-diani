@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eurobuild Diani Contractors</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="bar">
+  <a class="logo" href="#home"><img class="mark" src="logo.png" alt="Eurobuild Diani logo">Eurobuild Diani</a>
+  <nav aria-label="Main">
+    <a href="#home" data-p="home">Home</a><a href="#services" data-p="services">Services</a>
+    <a href="#machines" data-p="machines">Machine hire</a><a href="#about" data-p="about">About</a><a href="#contact" data-p="contact">Contact</a>
+  </nav>
+</div></header>
+<main>
+<div class="page" id="p-home">
+  <div class="hero"><div class="wrap">
+    <h1>Built right on the South Coast.</h1>
+    <p>Eurobuild Diani Contractors designs and builds homes, hotels and commercial projects in Diani and across Kwale County. Need equipment only? Hire our machines by the day.</p>
+    <div class="row"><a class="btn" href="#services">See our services</a><a class="btn ghost" href="#machines">Hire a machine</a></div>
+    <div class="facts"><div><strong>9+</strong>Services offered</div><div><strong>8</strong>Machines for daily hire</div><div><strong>Diani</strong>Kwale County, Kenya</div></div>
+  </div></div>
+  <section class="s"><div class="wrap">
+    <h2>What we do</h2><div class="grid" id="homeServices"></div>
+    <p style="margin-top:24px"><a class="btn" href="#services">All services</a></p>
+  </div></section>
+  <section class="s" style="padding-top:0"><div class="wrap">
+    <h2>How a project works</h2>
+    <div class="split"><ol class="steps">
+      <li><h3>Site visit and brief</h3>We visit your plot, listen to your needs and budget.</li>
+      <li><h3>Drawings and quotation</h3>You get plans and a clear bill of quantities.</li>
+      <li><h3>Construction</h3>Our team and machines build to schedule, with regular updates.</li>
+      <li><h3>Handover</h3>We inspect with you and hand over a finished, snag-free project.</li>
+    </ol>
+    <div class="card"><h3>Need a machine today?</h3><p>Pick your equipment on the Machine hire page, set the number of days and get an instant estimate to send us.</p><p></p><a class="btn" href="#machines">Open machine hire</a></div></div>
+  </div></section>
+</div>
+<div class="page" id="p-services">
+  <div class="pagehead"><div class="wrap"><h1>Construction services</h1><p>From the first excavation to the final coat of paint.</p></div></div>
+  <section class="s"><div class="wrap"><div class="grid" id="allServices"></div></div></section>
+  <div class="cta"><div class="wrap"><h2>Have a project in mind?</h2><p>Tell us about your site and we will arrange a visit and quotation.</p><a class="btn" href="#contact">Request a quotation</a></div></div>
+</div>
+<div class="page" id="p-machines">
+  <div class="pagehead"><div class="wrap"><h1>Machine hire</h1><p>Heavy equipment available per day. Tick what you need to build an estimate.</p></div></div>
+  <section class="s"><div class="wrap">
+    <div class="grid" id="machGrid"></div>
+    <div class="quote">
+      <div><label for="days">Number of days</label><input id="days" type="number" min="1" value="1" style="max-width:120px;margin-top:6px"><div class="note" id="selList">No machines selected</div></div>
+      <div><div class="note">Estimated hire cost</div><div class="total" id="total">KES 0</div></div>
+      <a class="btn" id="sendQuote" href="#contact">Send enquiry</a>
+    </div>
+    <p class="note" style="margin-top:14px">Rates are indicative and exclude fuel, operator and transport to site unless agreed. Confirm final pricing with our team.</p>
+  </div></section>
+</div>
+<div class="page" id="p-about">
+  <div class="pagehead"><div class="wrap"><h1>About Eurobuild Diani</h1><p>A local contractor with European-standard workmanship.</p></div></div>
+  <section class="s"><div class="wrap split">
+    <div><h2>Who we are</h2>
+      <p>Eurobuild Diani Contractors builds for homeowners, investors and hoteliers along Kenya&rsquo;s South Coast. We combine skilled local crews with our own fleet of equipment, so projects move faster and cost less to coordinate.</p>
+      <p>Coastal conditions are tough on buildings: salt, humidity and heavy rains. We specify materials and finishes that last, and we explain every choice in plain language.</p></div>
+    <div class="grid" style="grid-template-columns:1fr">
+      <div class="card"><h3>Quality first</h3><p>Materials tested, work inspected at every stage.</p></div>
+      <div class="card"><h3>On-time delivery</h3><p>Clear schedules and honest progress updates.</p></div>
+      <div class="card"><h3>Own equipment</h3><p>Our fleet is maintained in-house and available to hire.</p></div>
+    </div>
+  </div></section>
+</div>
+<div class="page" id="p-contact">
+  <div class="pagehead"><div class="wrap"><h1>Contact us</h1><p>Request a quotation or book a machine.</p></div></div>
+  <section class="s"><div class="wrap split">
+    <form id="cform">
+      <label>Your name<input type="text" id="cn" required></label>
+      <label>Phone or email<input type="text" id="cc" required></label>
+      <label>I&rsquo;m interested in<select id="ct"><option>Construction project</option><option>Machine hire</option><option>Other</option></select></label>
+      <label>Message<textarea id="cm" rows="5" placeholder="Tell us about your project or the machines and days you need"></textarea></label>
+      <button class="btn" type="submit">Send by email</button>
+      <div class="note">This opens your email app with the message ready to send.</div>
+    </form>
+    <div class="card"><h3>Visit or call</h3>
+      <p><strong>Office:</strong> Diani Beach Road, Kwale County, Kenya</p>
+      <p><strong>Phone:</strong> <a href="tel:+254706053301">0706053301</a></p>
+      <p><strong>Email:</strong> <a href="mailto:donaldomollo44@gmail.com">donaldomollo44@gmail.com</a></p>
+      <p><strong>Hours:</strong> Mon&ndash;Sat, 7:30am&ndash;5:30pm</p>
+    </div>
+  </div></section>
+</div>
+</main>
+<footer><div class="wrap"><span>&copy; 2026 Eurobuild Diani Contractors</span><span>Building and machine hire &middot; Diani, Kenya</span></div></footer>
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
